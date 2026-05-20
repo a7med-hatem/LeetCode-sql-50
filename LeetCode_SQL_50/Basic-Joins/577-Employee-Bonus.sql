@@ -1,6 +1,4 @@
-SELECT 
-name,
-bonus
+SELECT name, bonus
 FROM Employee AS E 
 LEFT JOIN Bonus AS B
 ON E.empId = B.empId 
